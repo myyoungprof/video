@@ -1,0 +1,125 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box; 
+}
+body{
+    height: 100vh;
+    width: 100%;
+}
+
+.video{
+    height: 100vh;
+    width: 100%;
+    object-fit: cover;
+}
+
+h1{
+  z-index: 20; 
+  position: absolute;
+  height: 100vh;
+  width: 100%;
+  bottom: 50px;
+  left: 0;
+  font-size: xx-large;
+  font-weight: bolder;
+  display: flex;
+  justify-content: center;
+  place-items: center;
+  color: indianred;
+}
+
+p{
+  z-index: 20; 
+  position: absolute;
+  height: 100vh;
+  width: 100%;
+  top: 29px;
+  left: 0;
+  font-size: xx-large;
+  font-weight: bolder;
+  display: flex;
+  justify-content: center;
+  place-items: center;
+  color: violet;
+}
+
+#fir{
+  position: absolute;
+  bottom: 0;
+  left: 80px;
+  font-size: x-large;
+  margin: 30px;
+  text-size-adjust: 30px;
+  width:80px;
+  z-index: 30;
+  border-radius: 8px;
+
+}
+
+#sec{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  font-size: x-large;
+  margin: 30px;
+  width:80px;
+  z-index: 40;
+  border-radius: 8px;
+} 
+
+.swit{
+  z-index: 60;
+  background-color: red;
+  color: aqua;
+  width: 65px;
+  height: 26px;
+  position: absolute;
+  bottom: 0;
+  left: 1px;
+  border-radius: 10px;
+  transition: 2s;
+}
+
+.turn{
+  z-index: 60;
+  background-color: blue;
+  color: aqua;
+  width: 75px;
+  height: 26px;
+  position: absolute;
+  bottom: 0;
+  left: 66px;
+  border-radius: 10px;
+  transition: 2s;
+}
+
+.btn{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  font-size: x-large;
+  margin: 30px;
+  width:145px;
+  z-index: 40;
+  border-radius: 8px;
+} 
+
+.gif{
+  position: absolute;
+  height: 100vh;
+  width: 100%;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  place-items: center;
+  background-color: blue;
+  object-fit: cover;
+  z-index: 100px;
+}
+
+.vis{
+  display: none;
+}
+
